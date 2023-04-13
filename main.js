@@ -59,7 +59,7 @@
 
 
 //FETCH è un nuovo metodo, prima si usava AJAX
-fetch(`https://643672ab8205915d34f3b508.mockapi.io/todos`)
+fetch(`https://643694673e4d2b4a12d616bf.mockapi.io/ToDo`)
 .then(resp => resp.json()) // funzione di callback. prende la stringa json e lo traduce in qualcosa che JS sa usare
 .then(data => displayData(data)); //una volta trasformati i dati che mi servono, THEN uso i dati come li so usare
 
@@ -91,7 +91,7 @@ function displayData(data){
 
 // Vecchio AJAX MODEL
 // const xhr = new XMLHttpRequest();
-// const url = `https://643672ab8205915d34f3b508.mockapi.io/todos`;
+// const url = `https://643694673e4d2b4a12d616bf.mockapi.io`;
 // xhr.open("GET", url, true);
 
 // xhr.onreadystatechange = function(){

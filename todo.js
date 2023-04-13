@@ -10,7 +10,7 @@ class ToDo{
 
     //  nasconde creation date (un numero che utente non puo leggere), voglio un get che lo trasforma in oggetto data
     get creationDate(){
-
+        
     }
 
     set creationDate(newDate){
